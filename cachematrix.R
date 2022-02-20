@@ -1,5 +1,5 @@
-## function for making a matrix and caching
 
+makeCacheMatrix <- function(x = matrix()) {
 funs <- makeCacheMatrix()
 funs$set(matrix(1:4, 2))
 
@@ -17,5 +17,8 @@ cacheSolve <- function(x, ...) {
 }
 
 
+## Write a short comment describing this function
 
-
+cacheSolve <- function(x, ...) {
+        ## Return a matrix that is the inverse of 'x'
+}
